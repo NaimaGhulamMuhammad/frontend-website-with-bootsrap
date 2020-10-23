@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-header{
+    background-image: url("images/1280px-Healthy_food.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+.bg-custom{
+    background-color: black;
+}
+.nav-link, .navbar-toggler,.dropdown-menu,.dropdown-item, .navbar-toggler-icon{
+    color: palevioletred !important;
+    padding: 10px 1em !important;
+    background-color: black !important;
+    font-weight: 500;
+}
+.nav-link:hover,.dropdown-item:hover{
+    color: white !important;
+    transition: all ease-in transform 10s;
+    font-weight: 700;
+    letter-spacing: .02em;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    border-radius: 10px;
+    font-family: odibee sans;
+    letter-spacing: .1em; 
+    color: white;
+
+}
+.my-header{
+  background: rgb(6,4,54);
+background: linear-gradient(90deg, rgba(6,4,54,1) 0%, rgba(168,65,31,1) 35%, rgba(20,1,4,1) 100%);
+}
+.feature{
+  background-image: url("images/cupcake-muffin-cake-candy\ \(1\).jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+.bg-transparent{
+  background: transparent ;
+  background-color: transparent !important;
+}
+
+#section-3{
+  background-image: url("images/bg.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-con{
+  opacity: 70%;
+  position: relative !important;
+}
+.main-con:hover{
+  opacity: 100%;
+}
+.overlay {
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0%;
+  border: 5px solid white ;
+  opacity: 0%;
+  background-color: transparent;
+  overflow: hidden !important;
+  width: 90%;
+  height: 0;
+  transition: .5s linear;
+  margin: 10px 10px;
+}
+.main-con:hover .overlay{
+  height: 100%;
+  opacity: 100%;
+}
+ .btn-position{
+  position: absolute !important;
+  top: 40%;
+  left: 25%;
+}
+.hvr-shutter-in-vertical:before{
+  background-color: transparent;
+  color: white;
+  font-weight: 700 !important;
+}
+.hvr-shutter-in-vertical{
+  background-color: transparent;
+}
+.hvr-shutter-in-vertical:hover, .btn:hover {
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: all .5s ease-in-out ;
+  border: 0px solid black;
+  background-color: palevioletred !important;
+}
+.btn{
+  padding: 10px 10px !important;
+}
+#about{
+  background-image: url("images/burer.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+#contact{
+  background-image: url("images/bg/contact-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Pasta page styles */
+#pasta{
+  background-image: url("images/bg/pasta.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-title, .card-text:hover{
+  color: palevioletred;
+}
+.card-text::before{
+  content: "RS: ";
+}
+#cakes{
+  background-image: url("images/bd\ cakes.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+  color: palevioletred;
+  font-weight: 500;
+}
+i:hover{
+  color : red;
+  /* font-size: 1.5rem; */
+  transition: all linear;
+}
+img:hover{
+  opacity: 70%;
+}
+
+@media only screen and (max-width: 768px){
+    .img{
+      width: 50;
+      height: 250px;
+    }
+}
+
+
+.bg{
+  background: rgb(255,252,253);
+background: linear-gradient(90deg, rgba(255,252,253,1) 0%, rgba(168,31,71,1) 35%, rgba(52,37,11,1) 100%);
+
+}
+ 
